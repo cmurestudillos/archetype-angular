@@ -19,6 +19,7 @@
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.color": "#dd0531",
+  "npm.packageManager": "pnpm",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {

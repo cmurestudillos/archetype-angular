@@ -41,24 +41,27 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^20.1.0",
-    "@angular/compiler": "^20.1.0",
-    "@angular/core": "^20.1.0",
-    "@angular/forms": "^20.1.0",
-    "@angular/platform-browser": "^20.1.0",
-    "@angular/router": "^20.1.0",
+    "@angular/common": "^22.0.2",
+    "@angular/compiler": "^22.0.2",
+    "@angular/core": "^22.0.2",
+    "@angular/forms": "^22.0.2",
+    "@angular/platform-browser": "^22.0.2",
+    "@angular/router": "^22.0.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.15.0"
+    "zone.js": "~0.16.0"
   },
   "devDependencies": {
-    "@angular/build": "^20.1.6",
-    "@angular/cli": "^20.1.6",
-    "@angular/compiler-cli": "^20.1.0",
+    "@angular-eslint/builder": "22.0.0",
+    "@angular/build": "^22.0.2",
+    "@angular/cli": "^22.0.2",
+    "@angular/compiler-cli": "^22.0.2",
+    "@eslint/js": "^10.0.1",
     "@types/jasmine": "~5.1.0",
-    "eslint": "^9.33.0",
+    "angular-eslint": "22.0.0",
+    "eslint": "^10.3.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-jsdoc": "^54.1.1",
+    "eslint-plugin-jsdoc": "^63.0.6",
     "eslint-plugin-prettier": "^5.5.4",
     "husky": "^9.1.7",
     "jasmine-core": "~5.8.0",
@@ -66,9 +69,11 @@
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
-    "lint-staged": "^16.1.5",
+    "karma-jasmine-html-reporter": "~2.2.0",
+    "lint-staged": "^17.0.7",
     "prettier": "^3.6.2",
-    "typescript": "~5.8.2"
-  }
+    "typescript": "~6.0.3",
+    "typescript-eslint": "8.61.1"
+  },
+  "packageManager": "pnpm@11.7.0"
 }
